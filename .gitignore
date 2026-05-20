@@ -5,3 +5,5 @@ __pycache__/
 .ipynb_checkpoints/
 outputs/
 .DS_Store
+data/processed/ai_cache.json
+.env
