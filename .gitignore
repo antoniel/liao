@@ -9,3 +9,4 @@ data/processed/ai_cache.json
 .env
 .playwright-mcp/
 pipeline-render.png
+docs/apresentacao.html
