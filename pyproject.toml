@@ -3,6 +3,11 @@ name = "hackathon"
 version = "0.1.0"
 description = "Análise de dados meteorológicos da Bahia (INMET)"
 requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.20.0",
+    "jupyter>=1.1.1",
+    "pandas>=3.0.3",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/hackathon"]
@@ -10,8 +15,3 @@ packages = ["src/hackathon"]
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-dependencies = [
-    "folium>=0.20.0",
-    "jupyter>=1.1.1",
-    "pandas>=3.0.3",
-]
